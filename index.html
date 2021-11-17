@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="scan.css">
+    <title>Team Member Profile Card</title>
+</head>
+
+<body>
+   <!---- <video autoplay muted loop="myVideo">
+        <source src="assets/images/Untitled design (1).mp4" type="video/mp4">
+    </video>----->
+    <div class="card">
+        <section class="main">
+            <div id="content-wrapper">
+                <!----<img class="banner-image" src="assets/images/lawncarethree.jpg">---->
+            
+                <video autoplay muted loop="myVideo">
+                    <source src="assets/images/lawncare.mp4">
+                </video>
+
+                <img class="profile-image" src="assets/images/john brown lawns (4).png">
+        </div>
+        </section>
+
+        <section class="more">
+            <p>lets get in touch ...</p>
+            
+
+            <div class="social-icons">
+
+                <div class="col">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/brownslawncareandsnowremoval" target="_blank" class="check-profile">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                        <div class="sub">Follow</div>
+                    
+                </div>
+
+                <div class="col">
+                    <div class="icon">
+                        <a href = "mailto: jbrown1236@aol.com" target="_blank" class="profile-email">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </a>
+                    </div>
+                        <div class="sub">Email</div>
+                    
+                </div>
+
+                <div class="col">
+                    <div class="icon">
+                        <a href="tel:3176268211" class="profile-email">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                        <div class="sub">Call</div>
+                    
+                </div>
+
+              
+                <div class="col">
+                    <div class="icon">
+                        <a href="assets/images/vcard.vcf" target="_blank" class="profile-email">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </div>
+                        <div class="sub">Contact</div>
+                    
+                </div>
+               
+            </div>
+            <div class="wwd">
+                <h5>here for you ... </h5>
+                <h5>Commercial and Residential</h5>
+                <ul>
+                    <li><i class="fas fa-seedling"></i> Small Trees</li>
+                    <li><i class="fas fa-seedling"></i> Mulching</li>
+                    <li><i class="fas fa-seedling"></i> Snow Removal and Salting</li>
+                    <li><i class="fas fa-seedling"></i> Sod Layering, Aeration and Seeding</li>
+                    <li><i class="fas fa-seedling"></i> Leaf Removal</li>
+                </ul>
+
+             </div>
+        </section>
+
+        <section class="info">
+            <section>
+                <a href="tel:3176268211" class="phone">
+                    <i class="fas fa-phone-square-alt"></i>
+                </a>
+            </section>
+           
+            <section>
+                
+                <div class="bc_code">
+                    <img src="assets/images/qr-code.svg">
+                   </div>
+            </section>
+
+            <button id="openerBtn">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+            </button>
+        </section>
+    </div>
+
+</body>
+
+<script>
+    var buttonEl = document.getElementById('openerBtn');
+    var cardEl = document.querySelector('.card');
+
+    buttonEl.addEventListener('click', function() {
+        cardEl.classList.toggle('opened');
+    })
+</script>
+
+</html>
