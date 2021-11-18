@@ -1,0 +1,43 @@
+.main-two{
+    position: relative;
+    background: url(assets/images/lawncaresix.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bc_code_two img{
+    width: 100%;
+   
+    padding: 20px;
+    
+    
+   
+}
+
+.btn{
+border-radius: 5px;
+border-width: 0;
+background-image: linear-gradient(to right bottom, #092e20, #123b29, #1c4831, #27553a, #326342);
+cursor: pointer;
+display: inline-block;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+transition: all 200ms;
+text-decoration: none;
+padding: 15px;
+margin: 30px auto;
+justify-content: center;
+align-content: center;
+}
+
+.profile-image-two{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 20px;
+}

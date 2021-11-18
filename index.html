@@ -7,21 +7,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="scan.css">
-    <title>Team Member Profile Card</title>
+    <title>Browns Lawn Care</title>
 </head>
 
 <body>
    <!---- <video autoplay muted loop="myVideo">
-        <source src="assets/images/brownlanwcare.mp4" type="video/mp4">
+        <source src="assets/images/Untitled design (1).mp4" type="video/mp4">
     </video>----->
     <div class="card">
         <section class="main">
             <div id="content-wrapper">
-                <!----<img class="banner-image" src="assets/images/lawncarethree.jpg">---->
+            <!----    <img class="banner-image" src="assets/images/lawncarethree.jpg">
             
-                 <video autoplay muted loop="myVideo">
+                <video  autoplay muted loop="myVideo">
                     <source src="assets/images/brownlanwcare.mp4" type="video/mp4">
-                </video>
+                </video> ----->
+                <div id="slider">
+                    <figure>
+                      <img src="assets/images/lawnthree.svg" alt="landscaping">
+                      <img src="assets/images/snowone.svg" alt="snow plowing">
+                      <img src="assets/images/lawnsix.svg" alt="landscaping">
+                      <img src="assets/images/lawnlicense.svg" alt="license and insured">
+                      <img src="assets/images/lawnfive.svg" alt="landscaping">
+                      
+                      
+                      
+                      
+                    </figure>
+                  </div>
 
                 <img class="profile-image" src="assets/images/john brown lawns (4).png">
         </div>
@@ -75,15 +88,16 @@
                 </div>
                
             </div>
-             <div class="wwd">
+            <div class="wwd">
                 <h5>besides lawn care, I'm here for you ... </h5>
                 <h5>Commercial and Residential</h5>
                 <ul>
-                    <li><i class="fas fa-seedling"></i> Small Trees</li>
+                    <li><i class="fas fa-seedling"></i> Mulching, Leaf Removal, Small Trees</li>
                     
                     <li><i class="fas fa-seedling"></i> Snow Removal and Salting<br><span>including sidewalks and driveways</span></li>
-                    <li><i class="fas fa-seedling"></i> Aeration and Seeding</li>
-                    <li><i class="fas fa-seedling"></i> Mulching and Leaf Removal</li>
+                    <li><i class="fas fa-seedling"></i> Aeration</li>
+                    <li><i class="fas fa-seedling"></i> Seeding</li>
+                    
                 </ul>
 
              </div>
@@ -99,7 +113,9 @@
             <section>
                 
                 <div class="bc_code">
-                    <img src="assets/images/qr-code.svg">
+                    <a href="card.html">
+                        <img src="assets/images/qr-code.svg">
+                    </a>
                    </div>
             </section>
 
@@ -110,6 +126,9 @@
         </section>
     </div>
 
+
+  
+
 </body>
 
 <script>
@@ -119,9 +138,9 @@
     buttonEl.addEventListener('click', function() {
         cardEl.classList.toggle('opened');
     })
-    
+
     var ONLYONETIME_EXECUTE = null;
-window.addEventListener('load', function(){ // on page load
+    window.addEventListener('load', function(){ // on page load
  
       document.body.addEventListener('touchstart', function(e){
     
